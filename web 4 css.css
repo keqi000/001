@@ -667,4 +667,146 @@ body {
 	html {
 		font-size: 55%;
 	}
+
+	#menu {
+		display: inline-block;
+	}
+	
+	.navbar .navbar-nav{
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		background-color: #fff;
+		width: 30rem;
+		height: 100vh;
+		transition: 0.3s;
+	}
+	
+	.navbar .navbar-nav.active {
+		right: 0;
+	}
+	
+	.navbar .navbar-nav a {
+		color : var(--bg);
+		display: block;
+		margin: 1.5rem;
+		padding: 0.5rem;
+		font-size: 2rem;
+	}
+		
+	.navbar .navbar-nav a::after {
+		transform-origin: 0 0;
+	}
+	
+	.navbar .navbar-nav a:hover::after {
+		transform: scaleX(0.2)
+	}
+	
+	/*about1*/
+	.about h2 {
+		font-size: 2.4rem;
+	}
+	
+	.about .content {
+		flex-wrap: wrap;
+	}
+	
+	.about .content .about-img img {
+		height: 24rem;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.about .content .text {
+		padding: 0;
+	}
+	
+	.about .content .text h3 {
+		margin-top: 1rem;
+		font-size: 1.6rem;
+	}
+	
+	.about .content .text p {
+		font-size: 1.2rem;
+	}
+	
+	/*about2*/
+	.about .content2 .about-img img {
+		height: 24rem;
+		object-fit: cover;
+		object-position: center;
+	}
+	
+	.about .content2 .text {
+		padding: 0;
+	}
+	
+	.about .content2 .text h3 {
+		font-size: 1.6rem;
+	}
+	
+	.about .content2 .text p {
+		font-size: 1.2rem;
+	}
+	
+	.about .content2 .text ul li {
+		font-size: 1rem;
+	}
+	
+	/*about3*/
+	.about .content3 .about-img img {
+		height: 24rem;
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+	}
+	
+	.about .content3 .text {
+		padding: 0;
+	}
+	
+	.about .content3 .text h3 {
+		font-size: 1.6rem;
+		padding: 1rem 0 0 1rem;
+	}
+	
+	.about .content3 .text p {
+		font-size: 1.2rem;
+		padding-left: 1rem;
+	}
+	
+	.about .content3 .text ul {
+		padding-left: 3rem;
+	}
+	
+	.about .content3 .text ul li {
+		font-size: 1rem;
+	}
+	
+	.kontak .utama .side-kontak{
+		flex-wrap: wrap;
+	}
+	
+	.kontak .utama .side-kontak .map1 {
+		height: 30rem;
+	}
+	
+	.kontak .utama .side-kontak .map2{
+		margin-left: 0;
+		margin-top: 1rem;
+		height: 30rem;
+	}
+	
+	.kontak .utama .side-kontak form {
+		padding-top: 0;
+		padding-bottom: 2rem;
+	}
+	
+	.kontak .utama .main-kontak {
+		gap: 3rem;
+	}
+	
+	.kontak .utama .main-kontak .medsos a {
+		margin : 0.5rem;
+	}
 }
